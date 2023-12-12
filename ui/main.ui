@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>main</class>
+ <widget class="QWidget" name="main">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1600</width>
+    <height>900</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1600</width>
+    <height>900</height>
+   </size>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(31, 78, 121);</string>
+  </property>
+  
+background : transparent;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label_9</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>pushButton_5</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>pushButton_7</zorder>
+  <zorder>pushButton_6</zorder>
+  <zorder>pushButton_8</zorder>
+  <zorder>pushButton_10</zorder>
+  <zorder>pushButton_9</zorder>
+  <zorder>pushButton_11</zorder>
+  <zorder>pushButton_12</zorder>
+  <zorder>label_10</zorder>
+  <zorder>pushButton_13</zorder>
+  <zorder>label_12</zorder>
+  <zorder>label_11</zorder>
+  <zorder>label_13</zorder>
+  <zorder>label_14</zorder>
+  <zorder>label_18</zorder>
+  <zorder>label_19</zorder>
+  <zorder>graph_1</zorder>
+  <zorder>graph_2</zorder>
+  <zorder>graph_label_1</zorder>
+  <zorder>graph_4</zorder>
+  <zorder>graph_3</zorder>
+  <zorder>label_17</zorder>
+  <zorder>graph_label_2</zorder>
+  <zorder>label_16</zorder>
+  <zorder>label_15</zorder>
+  <zorder>graph_label_3</zorder>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_13</sender>
+   <signal>clicked()</signal>
+   <receiver>main</receiver>
+   <slot>tologin()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1569</x>
+     <y>30</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1493</x>
+     <y>27</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>main</receiver>
+   <slot>day_sales()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>148</x>
+     <y>236</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>243</x>
+     <y>23</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>main</receiver>
+   <slot>week_sales()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>121</x>
+     <y>269</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>265</x>
+     <y>39</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>main</receiver>
+   <slot>month_sales()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>92</x>
+     <y>295</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>355</x>
+     <y>18</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>main</receiver>
+   <slot>month_reorder()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>160</x>
+     <y>371</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>466</x>
+     <y>26</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>main</receiver>
+   <slot>trend_reorder()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>108</x>
+     <y>400</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>520</x>
+     <y>40</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>main</receiver>
+   <slot>daeguro_population()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>105</x>
+     <y>486</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>579</x>
+     <y>19</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>main</receiver>
+   <slot>daeguro_sales()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>148</x>
+     <y>515</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>643</x>
+     <y>42</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_8</sender>
+   <signal>clicked()</signal>
+   <receiver>main</receiver>
+   <slot>daegu_population()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>107</x>
+     <y>549</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>723</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_9</sender>
+   <signal>clicked()</signal>
+   <receiver>main</receiver>
+   <slot>order_area()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>154</x>
+     <y>625</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>750</x>
+     <y>42</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_10</sender>
+   <signal>clicked()</signal>
+   <receiver>main</receiver>
+   <slot>commercial_area()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>120</x>
+     <y>654</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>623</x>
+     <y>37</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_11</sender>
+   <signal>clicked()</signal>
+   <receiver>main</receiver>
+   <slot>trend_asterion()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>156</x>
+     <y>728</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>388</x>
+     <y>30</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_12</sender>
+   <signal>clicked()</signal>
+   <receiver>main</receiver>
+   <slot>review_analysis()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>128</x>
+     <y>767</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>467</x>
+     <y>8</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>tologin()</slot>
+  <slot>day_sales()</slot>
+  <slot>week_sales()</slot>
+  <slot>month_sales()</slot>
+  <slot>month_reorder()</slot>
+  <slot>trend_reorder()</slot>
+  <slot>daeguro_population()</slot>
+  <slot>daeguro_sales()</slot>
+  <slot>daegu_population()</slot>
+  <slot>order_area()</slot>
+  <slot>commercial_area()</slot>
+  <slot>trend_asterion()</slot>
+  <slot>review_analysis()</slot>
+ </slots>
+</ui>
